@@ -1,6 +1,7 @@
-body {
+ body {
 display:flex;
 flex-direction: column;/*body contains a column of three boxes(header,main ,footer)*/
+
 }
 
 main{
@@ -17,3 +18,5 @@ aside{
     flex:1 
     overflow-y:auto;/*for it to be scrollable*/
 }
+
+
