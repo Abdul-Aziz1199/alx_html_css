@@ -1,1 +1,1 @@
-adding css files to my projects
+html and css resposive page readme file
