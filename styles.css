@@ -1,22 +1,313 @@
- body {
-display:flex;
-flex-direction: column;/*body contains a column of three boxes(header,main ,footer)*/
+body{
+  background-color:beige;
+  width:100%;
+  height:100%;
+}
+.header{
+  background-color: dimgrey;
+  width:100%;
+  margin-top: 0px;
+}
 
+#logo{
+  display:inline-block;
+  margin-left: 50px;
+ 
+}
+
+.list-container{
+ 
+  display:flex;
+  justify-content: flex-end;
+  width:100%;
+}
+
+ul{
+  float:right;
+  display:flex;
+  list-style:none;
+  margin:0px;
+  align-items:center;
+  margin-bottom:20px;
+  margin-right: 50px;
+}
+
+li{
+  margin:0 10px;
+}
+
+ a{
+  text-decoration:none;
+  color:whitesmoke;
+  vertical-align:top ;
 }
 
 main{
-    display:flex;
-    flex-direction: row;
-    flex:auto;/*for automatic height and weight*/
-}
-
-article{
-    flex:2;/*article to take 2/3 of the page*/
-    overflow-y:auto;/*for it to be scrollable*/
-}
-aside{
-    flex:1 
-    overflow-y:auto;/*for it to be scrollable*/
+  width:100%;
+  height:fit-content;
 }
 
 
+/* first section*/
+.section1-container{
+  width: 100%;
+  background-image:url("CSS Advanced/object.png");
+  background-repeat: no-repeat;
+  object-fit: cover;
+  white-space:inherit;
+  flex-direction: row;
+  background-color:rgb(51, 51, 51) ;
+ 
+  
+}
+
+.section1-div1-container{
+  width: 100%;
+  display:block;
+  margin-top:-20px;
+  text-align: center;
+}
+
+.section-button{
+  display:block;
+  text-align: center;
+  
+}
+
+.section1-div1-container > span{
+  justify-content: space-between;
+  padding-left:30px;
+  color:whitesmoke;
+  
+}
+.section1-div1-container > h1{
+  text-align: center;
+  font-size:40px;
+  font-weight:300px;
+  color:whitesmoke;
+  margin-top:0px;
+  margin-left:80px;
+}
+
+.section-button > button{
+  padding:15px;
+  margin-top: 15px;
+  background-color: rgb(160, 76, 238);
+  color:whitesmoke;
+  border-radius: 25px;
+  width: 200px;
+  
+}
+
+
+/*second div channel pictures*/
+
+#f-span{
+  color:rgb(169, 91, 242);
+  }
+  #s-span{
+    color:whitesmoke;
+   
+  }
+
+  .p2 {
+  
+    text-align: center;
+  color:black;
+
+  }
+  
+.second-div-container{
+ display:grid;
+ grid-template-columns: 100px 100px 100px 100px;
+ padding:0 20px;
+ grid-gap: 250px;
+
+ margin-bottom:0px;
+  }
+
+  button{
+
+  }
+
+  /*fith*/
+
+  .grid-container{
+    display:grid;
+    grid-template-columns: 1fr 1fr ;
+    column-gap:50px;
+    row-gap: 50px;
+  }
+
+  .channel-info1{
+    margin-bottom: -20px;
+    margin-left: 20px;
+    
+  }
+.channel-pic{
+margin-bottom:-20px;
+}
+.channel-header{
+margin-bottom: -10px;
+color:whitesmoke;
+}
+
+.channel-decription{
+margin-bottom: 0px;
+color:whitesmoke;
+}
+
+.chanel-info3 > .channel-pic{
+  border-radius:70px;
+}
+
+
+/*SECOND SECTION*/
+
+#second-div1>img{
+display:inline;
+width:80px;
+height:80px;
+margin-top:60px;
+vertical-align: top;
+margin-left: 100px;
+margin-bottom: -80px;
+
+}
+.second-bloc{
+display:inline-block;
+margin-left:200px;
+vertical-align: top;
+width:500px;
+color:whitesmoke;
+}
+
+.second-name{
+  display:inline;
+  margin-left:200px;
+  width:30px;
+  color:whitesmoke;
+}
+.second-weather{
+display:inline-block;
+margin-top: 0px;
+margin-left: 200px;
+color:whitesmoke;
+}
+
+.second-section{
+ 
+  background-color:darkorchid;
+  max-height:300px;
+}
+
+
+
+/* third section*/
+.popular{
+
+  width:100%;
+  text-align: center;
+  color:black;
+  font-size: 30px;
+  font-weight: bold;
+ margin-top: -100px;
+}
+.popular-pink{
+  color:blueviolet;
+}
+
+.third-section{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap:2px;
+  margin-top: 150px;
+
+  
+  
+}
+
+
+
+.smile-img{
+  height:px;
+  width:200px;
+}
+
+.smiles-description{
+  font-size: 15px;
+  font-weight: 12px;
+  width: 100px;
+}
+.chanel-pic{
+  display:inline-block;
+  width:30px;
+}
+.names{
+  width:20px;
+
+margin-top:-5px;
+}
+
+.stars{
+  display:flex;
+  flex-direction: row;
+  color:blueviolet
+}
+
+
+/* fout*/
+.free{
+  color:blueviolet;
+}
+
+.section-header{
+  text-align: center;
+  font-size: 20px;
+  font-weight: 50px;
+  color:whitesmoke;
+}
+
+.fourth-section{
+  display:grid;
+  margin-top: 200px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  background-color: #333333;
+}
+.para{
+  color:whitesmoke;
+}
+
+.smiley{
+marging-top:10px;
+}
+.lorem{
+  font-weight: 30px;
+  color:bisque;
+}
+.button{
+  border-radius: 30px;
+  background-color: blueviolet;
+  text-align: center;
+  padding:20px;
+  color:whitesmoke;
+  margin-left: 100px;
+  padding:10px;
+}
+
+
+.fa-brands .fa-facebook{
+  font-size: 50px;
+}
+
+.last{
+  background-color: black;
+  display:flex;
+  flex-direction: row;
+}
+.last-b{
+  background-color: black;
+  width:30px;
+  margin-left: 15px;
+  padding:30px;
+}
