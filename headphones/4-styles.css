@@ -1,5 +1,5 @@
 
-@media(max-width: 1000px)and (min-width: 100px ){
+@media(max-width: 1000px)and (min-width: 480px ){
     .second-section-icons{
         display:grid;
         grid-template-columns:1fr;
