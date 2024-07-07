@@ -1,0 +1,22 @@
+ body {
+display:flex;
+flex-direction: column;/*body contains a column of three boxes(header,main ,footer)*/
+
+}
+
+main{
+    display:flex;
+    flex-direction: row;
+    flex:auto;/*for automatic height and weight*/
+}
+
+article{
+    flex:2;/*article to take 2/3 of the page*/
+    overflow-y:auto;/*for it to be scrollable*/
+}
+aside{
+    flex:1 
+    overflow-y:auto;/*for it to be scrollable*/
+}
+
+
